@@ -1,0 +1,14 @@
+﻿Console.Clear();
+Console.Write("Write the x1 coordinate: ");
+double x1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Write the y1 coordinate: ");
+double y1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Write the z1 coordinate: ");
+double z1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Write the x2 coordinate: ");
+double x2 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Write the y2 coordinate: ");
+double y2 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Write the z2 coordinate: ");
+double z2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine(Math.Round(Math.Sqrt(Math.Pow(x1-x2, 2) + Math.Pow(y1-y2, 2) + Math.Pow(z1-z2, 2))), 2);
